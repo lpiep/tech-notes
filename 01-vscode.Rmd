@@ -144,7 +144,7 @@ In this file, add something like:
     # Load Postgres module used by RPostgres
     module load PostgreSQL/postgresql-15.2 
 
-    R
+    R --no-save
 
 Substitute the modules you would like to be loaded (including the proper
 version of R) for your own use.
